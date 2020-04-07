@@ -21,3 +21,7 @@
   padding: 20px 0;
 }
 
+.navbtn {
+    background: grey;
+    border: 3px solid red;
+}
