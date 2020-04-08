@@ -24,4 +24,17 @@
 .navbtn {
     background: grey;
     border: 3px solid red;
+    font-family: fantasy;
+}
+
+.mainBtn {
+    background-color: blueviolet;
+    border-width: 30px;
+    border-color: rgb(255, 0, 0);
+}
+
+.buttonOfTruth {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    font-family: sans-serif;
 }
