@@ -35,6 +35,7 @@
 
 .buttonOfTruth {
     background-color: blanchedalmond;
-    border-radius: 10px;
+    border-width: 5px;
     font-family: sans-serif;
+    border-color: blue;
 }
