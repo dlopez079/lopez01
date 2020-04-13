@@ -56,3 +56,6 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+#picture {
+  text-align: center;
+}
