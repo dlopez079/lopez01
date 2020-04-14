@@ -18,3 +18,12 @@ var ctx = canvas3.getContext("2d"); // You need a drawing object for the canvas.
 ctx.beginPath(); //begins a path
 ctx.arc(95, 50, 40, 0, 2 * Math.PI); //arc(x,y,r,startangle,endangle) - creates an arc/curve. To create a circle with arc(): Set start angle to 0 and end angle to 2*Math.PI. The x and y parameters define the x- and y-coordinates of the center of the circle. The r parameter defines the radius of the circle.
 ctx.stroke(); //To actually draw the line, you must use one of the "ink" methods, like stroke().
+
+//Create a circle in third canvas
+var canvas4 = document.getElementById("canvas4"); //find the <canvas> element on DOM
+var ctx = canvas4.getContext("2d"); // You need a drawing object for the canvas.  The getContext() is a built-in HTML object, with properties and methods for drawing
+var grd = ctx.createLinearGradient(0, 0, 200, 0); // createLinearGradient(x,y,x1,y1) - creates a linear gradient
+grd.addColorStop(0, "blue"); //The addColorStop() method specifies the color stops, and its position along the gradient. Gradient positions can be anywhere between 0 to 1.
+grd.addColorStop(1, "white"); //The addColorStop() method specifies the color stops, and its position along the gradient. Gradient positions can be anywhere between 0 to 1.
+ctx.fillStyle = grd; //To use the gradient, set the fillStyle or strokeStyle property to the gradient 
+ctx.fillRect(10, 10, 150, 80); //Draw the shape (rectangle, text, or a line).
