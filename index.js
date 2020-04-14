@@ -30,7 +30,7 @@ ctx.fillRect(10, 10, 110, 80); //Draw the shape (rectangle, text, or a line).
 
 //Create circle gradient in fourth canvas
 var ctx2 = canvas4.getContext("2d"); // You need a drawing object for the canvas.  The getContext() is a built-in HTML object, with properties and methods for drawing
-var grd2 = ctx2.createRadialGradient(75, 50, 5, 90, 60, 100); 
+var grd2 = ctx2.createRadialGradient(180, 50, 5, 190, 60, 65); //(x,y,r,x1,y1,r1)
 grd2.addColorStop(0, "Red");
 grd2.addColorStop(1, "White");
 ctx2.fillStyle = grd2;
