@@ -1,18 +1,18 @@
 
 /* This is the style for all the buttons in buttons.html. */
 button {
-     background-color: crimson;
+    border-style: outset;
  }
 .btnA {
-    background-color: burlywood;
+    background-color: rgb(222, 135, 193)
 }
 
 .btnB {
-    background-color: burlywood;
+    background-color: darkseagreen;
 }
 
 #btn1 {
-    background-color: chartreuse;
+    border: red;
 }
 
 #btn2 {
