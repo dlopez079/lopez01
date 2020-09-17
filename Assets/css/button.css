@@ -1,9 +1,18 @@
-.btn {
 
+/* This is the style for all the buttons in buttons.html. */
+button {
+     background-color: crimson;
+ }
+.btnA {
+    background-color: burlywood;
+}
+
+.btnB {
+    background-color: burlywood;
 }
 
 #btn1 {
-
+    background-color: chartreuse;
 }
 
 #btn2 {
