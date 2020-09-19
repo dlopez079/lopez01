@@ -2,6 +2,12 @@
 /* This is the style for all the buttons in buttons.html. */
 button {
     border-style: outset;
+    background-color: slateblue;
+    background-size: 2px;
+    size: 80 px;
+    color: slategrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 100;
  }
 .btnA {
     background-color: rgb(222, 135, 193)
