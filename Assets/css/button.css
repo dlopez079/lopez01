@@ -14,10 +14,9 @@ button {
 #btn1 {
     color: brown;
     border: rgb(25, 0, 255);
-    border-style: hidden hidden hidden double;
+    border-style: hidden dotted hidden double;
     border-width: 5px;
-    border-top-right-radius: 6px;
-    border-left-width: thick;
+    border-left-width: 10px;
     text-decoration: grey underline;
     text-transform: capitalize;
     word-spacing: 5px;
