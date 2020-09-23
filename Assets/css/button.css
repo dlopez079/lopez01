@@ -1,27 +1,30 @@
 
 /* This is the style for all the buttons in buttons.html. */
 button {
-    border-style: outset;
-    background-color: slateblue;
-    background-size: 2px;
-    size: 80 px;
-    color: slategrey;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 .btnA {
-    background-color: rgb(222, 135, 193)
+    background-color: rgb(0, 225, 255)
 }
 
 .btnB {
-    background-color: darkseagreen;
+    background-color: rgb(62, 192, 62);
 }
 
 #btn1 {
-    border: red;
+    color: brown;
+    border: rgb(25, 0, 255);
+    border-style: hidden hidden hidden double;
+    border-width: 5px;
+    border-top-right-radius: 6px;
+    border-left-width: thick;
+    text-decoration: grey underline;
+    text-transform: capitalize;
+    word-spacing: 5px;
 }
 
 #btn2 {
+    size: 5px;
 
 }
 
