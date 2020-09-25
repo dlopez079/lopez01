@@ -1,5 +1,7 @@
 
 /* This is the style for all the buttons in buttons.html. */
+
+
 button {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
@@ -23,16 +25,31 @@ button {
 }
 
 #btn2 {
-    size: 5px;
-
+    color: rgb(255, 255, 255);
+    text-align: right;
+    text-decoration: overline;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: black;
+    text-transform: uppercase;
+    word-spacing: -3px;
 }
 
 #btn3 {
-
+    color: blueviolet;
+    border-left: none;
+    border-right: none;
+    border-color: orangered;
+    text-transform: lowercase;
+    text-decoration-line: line-through;
 }
 
 #btn4 {
-
+    text-align: left;
+    font-size: 5px;
+    border-color: darkorchid;
+    border-style: inset;
+    border-width: 5px;
 }
 
 #btn5 {
