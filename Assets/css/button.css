@@ -45,6 +45,7 @@ button {
 }
 
 #btn4 {
+    color: darkred;
     text-align: left;
     font-size: 5px;
     border-color: darkorchid;
@@ -53,6 +54,16 @@ button {
 }
 
 #btn5 {
+    color: yellow;
+    border-style: outset;
+    border-color: hotpink;
+    border-width: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-top: none;
+    border-right: solid;
+    border-right-width: 10px;
+    border-right-color: hotpink;
 
 }
 
