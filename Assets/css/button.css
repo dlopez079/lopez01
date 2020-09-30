@@ -93,18 +93,24 @@ button {
 
 #btn8 {
     border: 2px solid #4CAF50;
-  background-color: white;
-  color: #4CAF50;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: progress;
+    background-color: white;
+    color: #4CAF50;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px #666;
 }
 
 #btn8:hover {
     background-color: #4CAF50;
-    box-shadow: 0 5px #666;
     color: white;
 }
+
+#btn8:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 #btn9 {
     color: #4CAF50;
