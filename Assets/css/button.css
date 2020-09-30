@@ -92,7 +92,18 @@ button {
 }
 
 #btn8 {
+    border: 2px solid #4CAF50;
+  background-color: white;
+  color: #4CAF50;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: progress;
+}
 
+#btn8:hover {
+    background-color: #4CAF50;
+    box-shadow: 0 5px #666;
+    color: white;
 }
 
 #btn9 {
