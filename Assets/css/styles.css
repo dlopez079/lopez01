@@ -1,0 +1,78 @@
+.item1 {
+    grid-area: header;
+}
+.item2 {
+    grid-area: menu;
+}
+.item3 {
+    grid-area: main;
+}
+.item4 {
+    grid-area: right;
+}
+.item5 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header header header header header header"
+        "menu main main main main right"
+        "menu footer footer footer footer right";
+    grid-gap: 10px;
+    background-color: #2196f3;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbtn {
+    background: grey;
+    border: 3px solid red;
+    font-family: fantasy;
+}
+
+.mainBtn {
+    background-color: blueviolet;
+    border-width: 3px;
+    border-color: rgb(255, 0, 0);
+}
+
+.buttonOfTruth {
+    background-color: blanchedalmond;
+    border-width: 5px;
+    font-family: sans-serif;
+    border-color: blue;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#picture {
+    text-align: center;
+}
+
+canvas {
+    width: 300px;
+    height: 150px;
+    border: 2px green solid;
+}
