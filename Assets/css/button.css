@@ -1,0 +1,155 @@
+
+/* This is the style for all the buttons in buttons.html. */
+
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+.btnA {
+    background-color: rgb(0, 225, 255)
+}
+
+.btnB {
+    background-color: rgb(62, 192, 62);
+}
+
+#btn1 {
+    color: brown;
+    border: rgb(25, 0, 255);
+    border-style: hidden dotted hidden double;
+    border-width: 5px;
+    border-left-width: 10px;
+    text-decoration: grey underline;
+    text-transform: capitalize;
+    word-spacing: 5px;
+}
+
+#btn2 {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    text-decoration: overline;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: black;
+    text-transform: uppercase;
+    word-spacing: -3px;
+}
+
+#btn3 {
+    color: blueviolet;
+    border-left: none;
+    border-right: none;
+    border-color: orangered;
+    text-transform: lowercase;
+    text-decoration-line: line-through;
+}
+
+#btn4 {
+    color: darkred;
+    text-align: left;
+    font-size: 5px;
+    border-color: darkorchid;
+    border-style: inset;
+    border-width: 5px;
+}
+
+#btn5 {
+    color: yellow;
+    border-style: outset;
+    border-color: hotpink;
+    border-width: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-top: none;
+    border-right: solid;
+    border-right-width: 10px;
+    border-right-color: hotpink;
+
+}
+
+#btn6 {
+    color: grey;
+    border-style: groove;
+    border-color: darkmagenta;
+    border-left: none;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-right: hidden;
+    text-transform: lowercase;
+    font-size: 10px;
+}
+
+#btn7 {
+    color: orangered;
+    border-right-color: plum;
+    border-top-color: violet;
+    border-left-color: rebeccapurple;
+    border-bottom-color: purple;
+    border-style: dashed;
+    border-width: 8px;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+#btn8 {
+    border: 2px solid #4CAF50;
+  background-color: white;
+  color: #4CAF50;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: progress;
+}
+
+#btn8:hover {
+    background-color: #4CAF50;
+    box-shadow: 0 5px #666;
+    color: white;
+}
+
+#btn9 {
+    color: #4CAF50;
+}
+
+#btn10 {
+
+}
+
+#btn11 {
+
+}
+
+#btn12 {
+
+}
+
+#btn13 {
+
+}
+
+#btn14 {
+
+}
+
+#btn15 {
+
+}
+
+#btn16 {
+
+}
+
+#btn17 {
+
+}
+
+#btn18 {
+
+}
+
+#btn19 {
+
+}
+
+#btn20 {
+
+}
