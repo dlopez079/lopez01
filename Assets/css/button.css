@@ -68,11 +68,27 @@ button {
 }
 
 #btn6 {
-
+    color: grey;
+    border-style: groove;
+    border-color: darkmagenta;
+    border-left: none;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-right: hidden;
+    text-transform: lowercase;
+    font-size: 10px;
 }
 
 #btn7 {
-
+ color: orangered;
+ border-right-color: plum;
+ border-top-color: violet;
+ border-left-color: rebeccapurple;
+ border-bottom-color: purple;
+ border-style: dashed;
+ border-width: 8px;
+ border-left-style: solid;
+ border-right-style: solid;
 }
 
 #btn8 {
